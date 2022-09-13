@@ -7,12 +7,12 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Tue, 13 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://BoyuGuan.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Hugo➕stack个人网站建站</title>
+        <title>Hugo➕Stack个人网站建站</title>
         <link>https://BoyuGuan.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/</link>
         <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
         
         <guid>https://BoyuGuan.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/</guid>
-        <description>&lt;img src="https://BoyuGuan.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/hugo%E6%88%AA%E5%9B%BE.png" alt="Featured image of post Hugo➕stack个人网站建站" /&gt;&lt;p&gt;刚搭好，只有一条推文还是卷王打卡，大家光看卷王打卡也不是个事儿，决定更新一条伪技术实踩坑的这个网站的搭建记录。&lt;/p&gt;
+        <description>&lt;img src="https://BoyuGuan.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/hugo%E6%88%AA%E5%9B%BE.png" alt="Featured image of post Hugo➕Stack个人网站建站" /&gt;&lt;p&gt;刚搭好，只有一条推文还是卷王打卡，大家光看卷王打卡也不是个事儿，决定更新一条伪技术实踩坑的这个网站的搭建记录。&lt;/p&gt;
 &lt;h2 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h2&gt;
 &lt;p&gt;建站的静态网站生成器有很多，我选的是&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  title=&#34;Hugo 官网&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -25,7 +25,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;brew install hugo
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; brew install hugo
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;一行命令即可安装。然而诡异的是，我一开始运行了好几次都失败了，显示无法下载。我的魔法已经全局了网络，但依然无法下载。后来的解决办法就是多运行几次🤦‍♂️……就成功了。mac和Linux都是一行命令极速安装，&lt;del&gt;可能只有windows上的安装麻烦一点&lt;/del&gt;。&lt;/p&gt;
@@ -37,8 +37,8 @@
 &lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo new site myblog &lt;span class=&#34;c1&#34;&gt;# 在当前目录下创建名为myblog的site&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ./myblog &lt;span class=&#34;c1&#34;&gt;# 在新site的文件夹下操作&lt;/span&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; hugo new site myblog &lt;span class=&#34;c1&#34;&gt;# 在当前目录下创建名为myblog的site&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;nb&#34;&gt;cd&lt;/span&gt; ./myblog &lt;span class=&#34;c1&#34;&gt;# 在新site的文件夹下操作&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;我选取的主题是Stack，&lt;del&gt;因为师兄也用的Stack&lt;/del&gt;。该说不说，这个主题很漂亮，而且很多功能很强大。但是美中不足，他的文档实在是又烂又不全。虽然同时有&lt;a class=&#34;link&#34; href=&#34;https://docs.stack.jimmycai.com/zh/&#34;  title=&#34;Stack中文文档&#34;
@@ -74,7 +74,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo server
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; hugo server
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;就能跑起来他的示例网站了。跑起来后可以在浏览器地址栏输入地址&lt;code&gt;localhost:1313&lt;/code&gt;实时查看网站情况，这个网站可以随着文档的更改在更改的文档保存后实时更新。&lt;/p&gt;
@@ -97,7 +97,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo --theme&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;hugo-theme-stack --baseUrl&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://你的帐号名.github.io&amp;#34;&lt;/span&gt; --buildDrafts
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; hugo --theme&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;hugo-theme-stack --baseUrl&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://你的帐号名.github.io&amp;#34;&lt;/span&gt; --buildDrafts
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;注意，此时会自动运行生成前端html文件等&lt;strong&gt;在你&lt;code&gt;myblog/public&lt;/code&gt;文件夹中，去&lt;code&gt;myblog/public&lt;/code&gt;文件夹初始化git仓库然后将&lt;code&gt;myblog/public&lt;/code&gt;文件夹下的内容push到刚刚新创建的GitHub项目中即可&lt;/strong&gt;。此时稍等一两分钟，在浏览器地址栏中访问&lt;code&gt;https://你的帐号名.github.io&lt;/code&gt;，便弹出了你的个人网站！&lt;/p&gt;
@@ -113,7 +113,7 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;hugo --theme&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;hugo-theme-stack --baseUrl&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://你的帐号名.github.io&amp;#34;&lt;/span&gt; --buildDrafts
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; hugo --theme&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;hugo-theme-stack --baseUrl&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;https://你的帐号名.github.io&amp;#34;&lt;/span&gt; --buildDrafts
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;更新&lt;code&gt;public&lt;/code&gt;文件夹中的内容，然后去&lt;code&gt;public&lt;/code&gt;文件夹git commit和push。稍等一会儿，网站即会更新。&lt;/p&gt;
