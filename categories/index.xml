@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Jack Guan 的个人网站</title>
-        <link>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/</link>
+        <link>https://BoyuGuan.github.io/categories/</link>
         <description>Recent content in Categories on Jack Guan 的个人网站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 13 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 13 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://BoyuGuan.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>打卡</title>
-        <link>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E6%89%93%E5%8D%A1/</link>
+        <link>https://BoyuGuan.github.io/categories/%E6%89%93%E5%8D%A1/</link>
         <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E6%89%93%E5%8D%A1/</guid>
-        <description>&lt;img src="https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E6%89%93%E5%8D%A1/daka.jpg" alt="Featured image of post 打卡" /&gt;</description>
+        <guid>https://BoyuGuan.github.io/categories/%E6%89%93%E5%8D%A1/</guid>
+        <description>&lt;img src="https://BoyuGuan.github.io/categories/%E6%89%93%E5%8D%A1/daka.jpg" alt="Featured image of post 打卡" /&gt;</description>
         </item>
         <item>
         <title>前端</title>
-        <link>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
+        <link>https://BoyuGuan.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
         <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E5%89%8D%E7%AB%AF/</guid>
-        <description></description>
+        <guid>https://BoyuGuan.github.io/categories/%E5%89%8D%E7%AB%AF/</guid>
+        <description>&lt;img src="https://BoyuGuan.github.io/categories/%E5%89%8D%E7%AB%AF/WEB%E5%89%8D%E7%AB%AF.png" alt="Featured image of post 前端" /&gt;</description>
         </item>
         
     </channel>

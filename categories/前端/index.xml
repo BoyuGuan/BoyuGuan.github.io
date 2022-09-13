@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>前端 on Jack Guan 的个人网站</title>
-        <link>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
+        <link>https://BoyuGuan.github.io/categories/%E5%89%8D%E7%AB%AF/</link>
         <description>Recent content in 前端 on Jack Guan 的个人网站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 13 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 13 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://BoyuGuan.github.io/categories/%E5%89%8D%E7%AB%AF/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo➕stack个人网站建站</title>
-        <link>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/</link>
+        <link>https://BoyuGuan.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/</link>
         <pubDate>Tue, 13 Sep 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/</guid>
-        <description>&lt;img src="https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/hugo%E6%88%AA%E5%9B%BE.png" alt="Featured image of post Hugo➕stack个人网站建站" /&gt;&lt;p&gt;刚搭好，只有一条推文还是卷王打卡，大家光看卷王打卡也不是个事儿，决定更新一条伪技术实踩坑的这个网站的搭建记录。&lt;/p&gt;
+        <guid>https://BoyuGuan.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/</guid>
+        <description>&lt;img src="https://BoyuGuan.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/hugo%E6%88%AA%E5%9B%BE.png" alt="Featured image of post Hugo➕stack个人网站建站" /&gt;&lt;p&gt;刚搭好，只有一条推文还是卷王打卡，大家光看卷王打卡也不是个事儿，决定更新一条伪技术实踩坑的这个网站的搭建记录。&lt;/p&gt;
 &lt;h2 id=&#34;安装hugo&#34;&gt;安装Hugo&lt;/h2&gt;
 &lt;p&gt;建站的静态网站生成器有很多，我选的是&lt;a class=&#34;link&#34; href=&#34;https://gohugo.io/&#34;  title=&#34;Hugo 官网&#34;
      target=&#34;_blank&#34; rel=&#34;noopener&#34;
