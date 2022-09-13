@@ -2,40 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://BoyuGuan.github.io/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/categories/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/page/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/p/hugostack%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E5%BB%BA%E7%AB%99/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/post/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/page/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/tags/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/post/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/categories/%E6%89%93%E5%8D%A1/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/tags/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/p/daka/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E6%89%93%E5%8D%A1/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/%E5%85%B3%E4%BA%8E/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/p/daka/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/tags/%E6%AF%8F%E6%97%A5%E6%89%93%E5%8D%A1/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/%E5%85%B3%E4%BA%8E/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/tags/%E5%B0%8F%E7%AE%A1%E4%BB%8A%E5%A4%A9%E5%B9%B2%E5%95%A5%E4%BA%86/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/tags/%E6%AF%8F%E6%97%A5%E6%89%93%E5%8D%A1/</loc>
     <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/%E9%93%BE%E6%8E%A5/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/categories/%E5%89%8D%E7%AB%AF/</loc>
+    <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/search/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/tags/%E5%B0%8F%E7%AE%A1%E4%BB%8A%E5%A4%A9%E5%B9%B2%E5%95%A5%E4%BA%86/</loc>
+    <lastmod>2022-09-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://BoyuGuan.github.io/archives/</loc>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/tags/%E6%96%B0%E6%8A%80%E6%9C%AF%E5%88%9D%E6%8E%8C%E6%8F%A1/</loc>
+    <lastmod>2022-09-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/%E9%93%BE%E6%8E%A5/</loc>
+  </url><url>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/search/</loc>
+  </url><url>
+    <loc>https://%E4%BD%A0%E7%9A%84%E5%B8%90%E5%8F%B7%E5%90%8D.github.io/archives/</loc>
   </url>
 </urlset>
