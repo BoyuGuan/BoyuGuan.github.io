@@ -6,7 +6,39 @@
         <description>Recent content on Jack Guan 的个人网站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://BoyuGuan.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 20 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://BoyuGuan.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>9-20小管动态</title>
+        <link>https://BoyuGuan.github.io/p/9-20%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</link>
+        <pubDate>Tue, 20 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://BoyuGuan.github.io/p/9-20%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</guid>
+        <description>&lt;img src="https://BoyuGuan.github.io/p/9-20%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E9%92%9F.png" alt="Featured image of post 9-20小管动态" /&gt;&lt;p&gt;今天干了这些&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;上午做了leetcode题。&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/partition-to-k-equal-sum-subsets/&#34;  title=&#34;题目链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这道题&lt;/a&gt;个人感觉还挺有意思的，之前做过一个和这道题几乎一摸一样的题目，但再做还是不会，这次一定记住。其实就是变相的遍历➕动归剪枝。&lt;/li&gt;
+&lt;li&gt;下午去上了NLP课，学到了GNN，不错。留的作业是典中典的猫狗识别。练习神经网络初步应用，但除了DNN和CNN外还要求用RNN，这个有点新鲜。&lt;/li&gt;
+&lt;li&gt;晚上的卜算课前半部分上的神清气爽。但后半部分明显感觉老师有些心不在焉，错误有点多。有时间把后半步讲的FFT再看一下。&lt;/li&gt;
+&lt;li&gt;晚上接着做了并发与多核的课，这门课的作业真的一言难尽。并没有做完。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;那就这样，一切顺利！
+&lt;img src=&#34;https://BoyuGuan.github.io/p/9-20%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE.png&#34;
+	width=&#34;1284&#34;
+	height=&#34;2778&#34;
+	srcset=&#34;https://BoyuGuan.github.io/p/9-20%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE_hu149798e90c60c45e9cf20c9c0594e470_4479446_480x0_resize_box_3.png 480w, https://BoyuGuan.github.io/p/9-20%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE_hu149798e90c60c45e9cf20c9c0594e470_4479446_1024x0_resize_box_3.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;9月20打卡记录&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>9-19小管动态</title>
         <link>https://BoyuGuan.github.io/p/9-19%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</link>
         <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
