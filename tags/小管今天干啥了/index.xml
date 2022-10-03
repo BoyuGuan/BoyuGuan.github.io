@@ -6,7 +6,102 @@
         <description>Recent content in 小管今天干啥了 on Jack Guan 的个人网站</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 26 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://BoyuGuan.github.io/tags/%E5%B0%8F%E7%AE%A1%E4%BB%8A%E5%A4%A9%E5%B9%B2%E5%95%A5%E4%BA%86/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 29 Sep 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://BoyuGuan.github.io/tags/%E5%B0%8F%E7%AE%A1%E4%BB%8A%E5%A4%A9%E5%B9%B2%E5%95%A5%E4%BA%86/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>9-29小管动态</title>
+        <link>https://BoyuGuan.github.io/p/9-29%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</link>
+        <pubDate>Thu, 29 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://BoyuGuan.github.io/p/9-29%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</guid>
+        <description>&lt;img src="https://BoyuGuan.github.io/p/9-29%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E5%B0%81%E9%9D%A2.PNG" alt="Featured image of post 9-29小管动态" /&gt;&lt;p&gt;最开心的一件事！！向老师请的国庆三天假过了！！可以出去找大雪莹和师兄们玩啦！&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;上午对着B站视频继续把卜老师的FFT部分过了一遍，彻底搞懂了卜老师PPT里的意思。&lt;/li&gt;
+&lt;li&gt;下午把操作系统课程至今的内容在书上整理了一下，顺便昨天下午上操作系统课时忘记带实体书了，就在平板上先记了，然后把这部分东西搬到了平板上。&lt;/li&gt;
+&lt;li&gt;还水了几道leetcode题～&lt;/li&gt;
+&lt;li&gt;晚上的自然辩证法依旧折磨，我滴妈呀，这个老师是真的离谱…&lt;/li&gt;
+&lt;li&gt;晚上熬完自辩课去上自习写了体系结构的作业。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;那就这样，一切顺利&lt;/strong&gt;
+&lt;img src=&#34;https://BoyuGuan.github.io/p/9-29%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE.PNG&#34;
+	width=&#34;1284&#34;
+	height=&#34;2778&#34;
+	srcset=&#34;https://BoyuGuan.github.io/p/9-29%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE_huf04ddda2f3fb5ee4c0267d4a96a85362_3390542_480x0_resize_box_3.PNG 480w, https://BoyuGuan.github.io/p/9-29%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE_huf04ddda2f3fb5ee4c0267d4a96a85362_3390542_1024x0_resize_box_3.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;9月29打卡记录&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>9-28小管动态</title>
+        <link>https://BoyuGuan.github.io/p/9-28%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</link>
+        <pubDate>Wed, 28 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://BoyuGuan.github.io/p/9-28%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</guid>
+        <description>&lt;img src="https://BoyuGuan.github.io/p/9-28%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E5%B0%81%E9%9D%A2.PNG" alt="Featured image of post 9-28小管动态" /&gt;&lt;ol&gt;
+&lt;li&gt;上午写了一道leetcoe代码题，&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/get-kth-magic-number-lcci/&#34;  title=&#34;题目链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这道题&lt;/a&gt;的dp运用的很巧妙，并且有个坑，三个if不能用elif来替代，否则会在公倍数时不能正常增加的问题。&lt;/li&gt;
+&lt;li&gt;下午第一二节的英语课还是有点意思的。&lt;/li&gt;
+&lt;li&gt;下午三四节的OS课依旧是收获满满，还听到了杨老师讲光辉当年～&lt;/li&gt;
+&lt;li&gt;晚上把昨天算法课的FFT和DFT部分对着B站的视频重新复习了一遍，发现了卜老师PPT里IFFT算法的一个小错误，不过也是老师的无心之错，意思能理解。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;那就这样，一切顺利&lt;/strong&gt;
+&lt;img src=&#34;https://BoyuGuan.github.io/p/9-28%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE.PNG&#34;
+	width=&#34;1284&#34;
+	height=&#34;2778&#34;
+	srcset=&#34;https://BoyuGuan.github.io/p/9-28%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE_hu73c100cb09bccd8d491da3c432834d51_5811583_480x0_resize_box_3.PNG 480w, https://BoyuGuan.github.io/p/9-28%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE_hu73c100cb09bccd8d491da3c432834d51_5811583_1024x0_resize_box_3.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;9月28打卡记录&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
+        <title>9-27小管动态</title>
+        <link>https://BoyuGuan.github.io/p/9-27%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</link>
+        <pubDate>Tue, 27 Sep 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://BoyuGuan.github.io/p/9-27%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</guid>
+        <description>&lt;img src="https://BoyuGuan.github.io/p/9-27%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E9%92%9F.png" alt="Featured image of post 9-27小管动态" /&gt;&lt;ol&gt;
+&lt;li&gt;上午写了写代码，对两道leetcode简单题重拳出击，其中&lt;a class=&#34;link&#34; href=&#34;https://leetcode.cn/problems/convert-a-number-to-hexadecimal/&#34;  title=&#34;题目链接&#34;
+     target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这道题&lt;/a&gt;如果利用python+补码的机制来写还挺好的。&lt;/li&gt;
+&lt;li&gt;下午的NLP课程有些慢节奏。&lt;/li&gt;
+&lt;li&gt;晚上的算法课DP听的倒是很爽，但FFT部分需要补一下，之前的FFT有几个点没太听明白。&lt;/li&gt;
+&lt;li&gt;晚上把NLP课程中没懂的部分补明白了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;准备跟着CS224n的课程学NLP&lt;/p&gt;
+&lt;p&gt;《多核数据结构与并发编程》退课成功！&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;那就这样，一切顺利&lt;/strong&gt;
+&lt;img src=&#34;https://BoyuGuan.github.io/p/9-27%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE.PNG&#34;
+	width=&#34;1284&#34;
+	height=&#34;2778&#34;
+	srcset=&#34;https://BoyuGuan.github.io/p/9-27%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE_hu0962dbea2dd0666e1c005a182139c36e_9875023_480x0_resize_box_3.PNG 480w, https://BoyuGuan.github.io/p/9-27%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/%E6%88%AA%E5%9B%BE_hu0962dbea2dd0666e1c005a182139c36e_9875023_1024x0_resize_box_3.PNG 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;9月27打卡记录&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;46&#34;
+		data-flex-basis=&#34;110px&#34;
+	
+&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>9-26小管动态</title>
         <link>https://BoyuGuan.github.io/p/9-26%E5%B0%8F%E7%AE%A1%E5%8A%A8%E6%80%81/</link>
         <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
