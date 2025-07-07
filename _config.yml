@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Boyu Guan's academic homepage"
+title                    : "Boyu Guan's homepage"
 title_separator          : "-"
 name                     : &name "Boyu Guan"
 description              : &description "personal description"
