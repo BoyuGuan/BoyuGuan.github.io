@@ -10,9 +10,10 @@ redirect_from:
 
 
 
-### **Boyu Guan (管博宇)**
+<!-- ## **Boyu Guan (管博宇)** -->
 
-I am currently a third-year Ph.D. student at the **Institute of Automation, Chinese Academy of Sciences**, where I am advised by [**Prof. Chengqing Zong (宗成庆)**](https://nlpr.ia.ac.cn/cip/cqzong.htm) and [**Assoc. Prof. Yang Zhao (赵阳)**](https://yzhaoiacas.netlify.app/).
+I am currently a third-year Ph.D. student at the **Institute of Automation, Chinese Academy of Sciences**, and a member of the **State Key Laboratory of Multimodal Artificial Intelligence Systems**, where I am advised by [**Prof. Chengqing Zong (宗成庆)**](https://nlpr.ia.ac.cn/cip/cqzong.htm) and [**Assoc. Prof. Yang Zhao (赵阳)**](https://yzhaoiacas.netlify.app/).
+
 
 My research lies at the intersection of **Natural Language Processing (NLP)** and **Multimodal Large Language Models (MLLMs)**, with a current focus on **Video-Guided Machine Translation (VMT)**. In this line of work, I explore how visual and linguistic signals can be effectively fused to enhance translation performance and efficiency.
 
@@ -22,7 +23,35 @@ You can find my CV here: [**Boyu Guan's Curriculum Vitae**](../../files/CV_BoyuG
 If you're interested in collaboration or would like to chat, feel free to reach out to me at *guanboyu2022[at]ia.ac.cn*.
 
 
-## News🔥🔥🔥:
+# News🔥🔥🔥:
 - **2025.3**: 👨‍🏫 I will serve as a teaching assistant for the **Natural Language Processing** course for Ph.D. students at **Zhongguancun Academy**.
 - **2024.12**: 🎉🎉 Our paper was accepted to **COLING 2025** and selected for an **oral presentation**!
 - **2024.9**: 👨‍🏫 I will serve as a teaching assistant for the **Practical Natural Language Processing** course for undergraduate students at the **University of Chinese Academy of Sciences (UCAS)**
+
+---
+
+# Publications {#publications}
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+{% endif %}
+
+{% include base_path %}
+
+## Conference Papers
+
+{% for post in site.publications reversed %}
+  {% if post.category == 'conferences' %}
+    {% include archive-single-paper-box.html %}
+  {% endif %}
+{% endfor %}
+
+<!-- ### Journal Articles
+
+{% for post in site.publications reversed %}
+  {% if post.category == 'manuscripts' %}
+    {% include archive-single-paper-box.html %}
+  {% endif %}
+{% endfor %} -->
+
+
