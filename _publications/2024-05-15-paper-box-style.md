@@ -19,6 +19,25 @@ header:
 citation: 'Zhang, W., Li, M., & Wang, H. (2024). &quot;Vision Transformer with Dynamic Attention.&quot; <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>. pp. 1234-1242.'
 ---
 
+<div class="paper-box">
+  <div class="paper-box-image">
+    <img src="/images/500x300.png" alt="Vision Transformer with Dynamic Attention">
+  </div>
+  <div class="paper-box-text">
+    <h3>Vision Transformer with Dynamic Attention</h3>
+    <p><strong>作者：</strong> Zhang Wei, Li Ming, Wang Hua</p>
+    <p><strong>会议：</strong> CVPR 2024</p>
+    <p><strong>状态：</strong> Oral Presentation (接受率 4.2%)</p>
+    <p>本文提出了一种新型的动态注意力机制，显著提高了Vision Transformer在计算机视觉任务中的性能。</p>
+    <p>
+      <a href="#" class="btn btn--primary">PDF</a>
+      <a href="https://github.com/yourusername/dynamic-vit" class="btn btn--info">Code</a>
+      <a href="#" class="btn btn--warning">Slides</a>
+      <a href="#" class="btn btn--danger">Video</a>
+    </p>
+  </div>
+</div>
+
 本文提出了一种新型的动态注意力机制，显著提高了Vision Transformer在计算机视觉任务中的性能。我们的方法在ImageNet分类、COCO目标检测和ADE20K语义分割等多个基准测试中均取得了最先进的结果。
 
 ## 摘要
