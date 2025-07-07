@@ -20,3 +20,7 @@ Looking ahead, I am particularly interested in expanding my research to **video 
 You can find my CV here: [**Boyu Guan's Curriculum Vitae**](../../files/CV_BoyuGuan.pdf).
 If you're interested in collaboration or would like to chat, feel free to reach out to me at *guanboyu2022[at]ia.ac.cn*.
 
+## News🔥🔥🔥:
+- **2025.3**: 👨‍🏫 I will serve as a teaching assistant for the **Natural Language Processing** course for Ph.D. students at **Zhongguancun Academy**.
+- **2024.12**: 🎉🎉 Our paper was accepted to **COLING 2025** and selected for an **oral presentation**!
+- **2024.9**: 👨‍🏫 I will serve as a teaching assistant for the **Practical Natural Language Processing** course for undergraduate students at the **University of Chinese Academy of Sciences (UCAS)**
