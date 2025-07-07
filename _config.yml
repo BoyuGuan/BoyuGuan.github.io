@@ -248,14 +248,14 @@ defaults:
       path: ""
       type: pages
     values:
-      layout: single
+      layout: archive
       author_profile: true
   # _teaching
   - scope:
       path: ""
       type: teaching
     values:
-      layout: single
+      layout: archive
       author_profile: true
       share: true
       comments: true
@@ -264,7 +264,7 @@ defaults:
       path: ""
       type: publications
     values:
-      layout: single
+      layout: archive
       author_profile: true
       share: true
       comments: true
@@ -273,7 +273,7 @@ defaults:
       path: ""
       type: portfolio
     values:
-      layout: single
+      layout: archive
       author_profile: true
       share: true
       comment: true
@@ -282,7 +282,7 @@ defaults:
       path: ""
       type: talks
     values:
-      layout: talk
+      layout: archive
       author_profile: true
       share: true
 
