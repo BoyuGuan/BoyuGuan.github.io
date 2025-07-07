@@ -22,12 +22,12 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./2.png"
+  avatar           : "./2_DPI72.jpg"
   name             : "Boyu Guan (管博宇)"
   pronouns         : # example: "she/her"  
   bio              : "A third-year Ph.D. student specializing in Natural Language Processing at the Institute of Automation, Chinese Academy of Sciences."
   location         : "Beijing, China"
-  employer         : "Institute of Automation, Chinese Academy of Sciences"
+  employer         : "CASIA"
   uri              : # URL
   email            : "guanboyu2022@ia.ac.cn" 
 
@@ -52,7 +52,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -79,10 +79,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  # books:
+  #   title: 'Books'
+  # manuscripts:
+  #   title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 
