@@ -10,13 +10,17 @@
 
 @import
     "vendor/breakpoint/breakpoint",
+
     "themes",
     "theme/default",
     "theme/dark",
+
     "include/mixins",
     "vendor/susy/susy",
+
     "layout/reset",
     "layout/base",
+
     "include/utilities",
     "layout/tables",
     "layout/buttons",
@@ -25,69 +29,14 @@
     "layout/navigation",
     "layout/footer",
     "syntax",
+
     "layout/forms",
+
     "layout/page",
     "layout/archive",
     "layout/sidebar",
+
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands";
-
-/* 自定义样式优化 */
-
-/* 平滑滚动 */
-html {
-  scroll-behavior: smooth;
-}
-
-/* 优化发表论文条目样式 */
-.publication-item {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border-radius: 5px;
-}
-
-.publication-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-/* 优化学术报告条目样式 */
-.talk-item {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  border-radius: 5px;
-}
-
-.talk-item:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-/* 优化链接样式 */
-.publication-item h4 a,
-.talk-item h4 a {
-  text-decoration: none;
-  color: #2c3e50;
-  transition: color 0.2s ease;
-}
-
-.publication-item h4 a:hover {
-  color: #3498db;
-}
-
-.talk-item h4 a:hover {
-  color: #e74c3c;
-}
-
-/* 响应式调整 */
-@media (max-width: 768px) {
-  .publication-item,
-  .talk-item {
-    padding: 8px;
-    margin-bottom: 12px;
-  }
-  
-  .publication-item h4,
-  .talk-item h4 {
-    font-size: 16px;
-  }
-}
+    "vendor/font-awesome/brands"
+;
