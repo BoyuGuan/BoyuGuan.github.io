@@ -8,7 +8,7 @@ date: 2024-05-15
 venue: '<span style="background-color:rgb(32, 98, 168); color: white; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-style: normal;">CCF B</span> COLING 2025'
 paperurl: 'https://aclanthology.org/2025.coling-main.547.pdf'
 codeurl: 'https://github.com/BoyuGuan/TriFine'
-slidesurl: '#'
+slidesurl: '/files/paper-TriFine/oral-TriFine.pdf'
 videourl: # '#'
 posterurl: #'#'
 demourl: # '#'
@@ -16,7 +16,7 @@ authors: '**Boyu Guan**, Yining Zhang, Yang Zhao<sup>#</sup>, Chengqing Zong'
 acceptance_status: 'Oral (rate 4.2%)'
 header:
   teaser: 'https://boyuguan.github.io/files/paper-TriFine/TriFine.png'
-citation: 'Zhang, W., Li, M., & Wang, H. (2024). &quot;Vision Transformer with Dynamic Attention.&quot; <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>. pp. 1234-1242.'
+citation: # 'Zhang, W., Li, M., & Wang, H. (2024). &quot;Vision Transformer with Dynamic Attention.&quot; <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>. pp. 1234-1242.'
 ---
 
 本文提出了一种新型的动态注意力机制，显著提高了Vision Transformer在计算机视觉任务中的性能。我们的方法在ImageNet分类、COCO目标检测和ADE20K语义分割等多个基准测试中均取得了最先进的结果。
