@@ -15,7 +15,7 @@ demourl: '#'
 authors: 'Zhang Wei, Li Ming, Wang Hua'
 acceptance_status: 'Oral (rate 4.2%)'
 header:
-  teaser: '500x300.png'
+  teaser: 'pubs/TriFine.png'
 citation: 'Zhang, W., Li, M., & Wang, H. (2024). &quot;Vision Transformer with Dynamic Attention.&quot; <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>. pp. 1234-1242.'
 ---
 

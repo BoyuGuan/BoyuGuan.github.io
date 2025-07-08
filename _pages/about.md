@@ -22,11 +22,15 @@ Looking ahead, I am particularly interested in expanding my research to **video 
 You can find my CV here: [**Boyu Guan's Curriculum Vitae**](../../files/CV_BoyuGuan.pdf).
 If you're interested in collaboration or would like to chat, feel free to reach out to me at *guanboyu2022[at]ia.ac.cn*.
 
+# 📚 Education:
+- **2022.09 – 2027.06 (Expected)** Ph.D. in Computer Science at the *Institute of Automation, Chinese Academy of Sciences*, Beijing, China, under the supervision of **Prof. Chengqing Zong**.
+- **2018.09 – 2022.06** B.Sc. in Mathematics, *School of Science, Northeastern University*, Shenyang, China
 
-# News🔥🔥🔥:
-- **2025.3**: 👨‍🏫 I will serve as a teaching assistant for the **Natural Language Processing** course for Ph.D. students at **Zhongguancun Academy**.
+# 🔥 News:
+- **2025.03**: 👨‍🏫 I will serve as a teaching assistant for the **Natural Language Processing** course for Ph.D. students at **Zhongguancun Academy**.
 - **2024.12**: 🎉🎉 Our paper was accepted to **COLING 2025** and selected for an **oral presentation**!
-- **2024.9**: 👨‍🏫 I will serve as a teaching assistant for the **Practical Natural Language Processing** course for undergraduate students at the **University of Chinese Academy of Sciences (UCAS)**
+- **2024.09**: 👨‍🏫 I will serve as a teaching assistant for the **Practical Natural Language Processing** course for undergraduate students at the **University of Chinese Academy of Sciences (UCAS)**
+
 
 ---
 
@@ -46,7 +50,7 @@ If you're interested in collaboration or would like to chat, feel free to reach 
   {% endif %}
 {% endfor %}
 
-<!-- ### Journal Articles
+<!-- ## Journal Articles
 
 {% for post in site.publications reversed %}
   {% if post.category == 'manuscripts' %}
@@ -54,4 +58,9 @@ If you're interested in collaboration or would like to chat, feel free to reach 
   {% endif %}
 {% endfor %} -->
 
+
+
+# 💻 Internships
+**2023.02 – 2023.08** Software Engineering Intern, *Biren Technology*, Beijing, China
+Worked on the migration and optimization of pre-training and inference pipelines for large language models (LLMs), including **LLaMA**, **LLaMA2**, and **ChatGLM**. Responsibilities included architecture adaptation and efficiency improvements such as **activation checkpointing**.
 
