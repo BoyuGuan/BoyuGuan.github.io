@@ -66,6 +66,6 @@ If you're interested in collaboration or would like to chat, feel free to reach 
 
 
 # 💻 Internships
-- **2023.02 – 2023.08** Software Engineering Intern, *Biren Technology*, Beijing, China.  
+- **2023.02 – 2023.08** Software Engineering Intern, *Biren Technology (壁仞科技)*, Beijing, China.  
  Worked on the migration and optimization of pre-training and inference pipelines for large language models (LLMs), including **LLaMA**, **LLaMA2**, and **ChatGLM**. Responsibilities included architecture adaptation and efficiency improvements such as **activation checkpointing**.
 

@@ -53,31 +53,37 @@
     {% endif %}
     
     {% if post.citation and post.paperurl and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %} | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.slidesurl }}">Download Slides</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %}</p>
     {% elsif post.citation and post.paperurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %} | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation and post.paperurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.paperurl }}">Download Paper</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %}</p>
     {% elsif post.citation and post.slidesurl and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %} | <a href="{{ post.bibtexurl}}">Download Bibtex</a></p>
     {% elsif post.citation and post.slidesurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.slidesurl }}">Download Slides</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %}</p>
     {% elsif post.citation and post.bibtexurl %}
-      <p>Recommended citation: {{ post.citation }}<br /><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p>Recommended citation: {{ post.citation }}<br />{% if post.codeurl %}<a href="{{ post.codeurl }}">Download Code</a>{% if post.dataseturl %} | {% endif %}{% endif %}{% if post.dataseturl %}<a href="{{ post.dataseturl }}">Download Dataset</a>{% if post.codeurl or post.dataseturl %} | {% endif %}{% endif %}<a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.citation %}
-      <p>Recommended citation: {{ post.citation }}</p>
+      <p>Recommended citation: {{ post.citation }}{% if post.codeurl or post.dataseturl %}<br />{% if post.codeurl %}<a href="{{ post.codeurl }}">Download Code</a>{% if post.dataseturl %} | {% endif %}{% endif %}{% if post.dataseturl %}<a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %}{% endif %}</p>
     {% elsif post.paperurl and post.bibtexurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href=" {{ post.paperurl }} ">Download Paper</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %} | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.paperurl %}
-      <p><a href=" {{ post.paperurl }} ">Download Paper</a></p>
+      <p><a href=" {{ post.paperurl }} ">Download Paper</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %}</p>
     {% elsif post.slidesurl and post.bibtexurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a> | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p><a href="{{ post.slidesurl }}">Download Slides</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %} | <a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
     {% elsif post.slidesurl %}
-      <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
+      <p><a href="{{ post.slidesurl }}">Download Slides</a>{% if post.codeurl %} | <a href="{{ post.codeurl }}">Download Code</a>{% endif %}{% if post.dataseturl %} | <a href="{{ post.dataseturl }}">Download Dataset</a>{% endif %}</p>
     {% elsif post.bibtexurl %}
-      <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+      <p>{% if post.codeurl %}<a href="{{ post.codeurl }}">Download Code</a>{% if post.dataseturl %} | {% endif %}{% endif %}{% if post.dataseturl %}<a href="{{ post.dataseturl }}">Download Dataset</a>{% if post.codeurl or post.dataseturl %} | {% endif %}{% endif %}<a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+    {% elsif post.codeurl and post.dataseturl %}
+      <p><a href="{{ post.codeurl }}">Download Code</a> | <a href="{{ post.dataseturl }}">Download Dataset</a></p>
+    {% elsif post.codeurl %}
+      <p><a href="{{ post.codeurl }}">Download Code</a></p>
+    {% elsif post.dataseturl %}
+      <p><a href="{{ post.dataseturl }}">Download Dataset</a></p>
     {% endif %}
 
   </article>

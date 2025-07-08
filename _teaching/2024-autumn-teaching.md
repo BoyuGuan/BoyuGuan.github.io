@@ -1,5 +1,5 @@
 ---
-title: "Teaching Assistant – Practical Natural Language Processing (Fall 2025)"
+title: "Teaching Assistant – Practical Natural Language Processing (Fall 2024)"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2024-autumn-teaching

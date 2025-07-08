@@ -48,29 +48,35 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %} | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.slidesurl }}">Download Slides</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %}</p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %} | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Download Paper</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %}</p>
         {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %} | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Download Slides</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %}</p>
         {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %} | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a> | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Download Paper</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %} | <a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation and page.bibtexurl %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}<br />{% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% if page.dataseturl %} | {% endif %}{% endif %}{% if page.dataseturl %}<a href="{{ page.dataseturl }}">Dataset</a>{% if page.codeurl or page.dataseturl %} | {% endif %}{% endif %}<a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
         {% elsif page.citation %}
-          <p style="font-size: smaller">Recommended citation: {{ page.citation }}</p>
+          <p style="font-size: smaller">Recommended citation: {{ page.citation }}{% if page.codeurl or page.dataseturl %}<br />{% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% if page.dataseturl %} | {% endif %}{% endif %}{% if page.dataseturl %}<a href="{{ page.dataseturl }}">Dataset</a>{% endif %}{% endif %}</p>
         {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a></p>
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Download Slides</a>{% if page.codeurl %} | <a href="{{ page.codeurl }}">Code</a>{% endif %}{% if page.dataseturl %} | <a href="{{ page.dataseturl }}">Dataset</a>{% endif %}</p>
         {% elsif page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+          <p style="font-size: smaller">{% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% if page.dataseturl %} | {% endif %}{% endif %}{% if page.dataseturl %}<a href="{{ page.dataseturl }}">Dataset</a>{% if page.codeurl or page.dataseturl %} | {% endif %}{% endif %}<a href="{{ page.bibtexurl }}">Download Bibtex</a></p>
+        {% elsif page.codeurl and page.dataseturl %}
+          <p style="font-size: smaller"><a href="{{ page.codeurl }}">Code</a> | <a href="{{ page.dataseturl }}">Dataset</a></p>
+        {% elsif page.codeurl %}
+          <p style="font-size: smaller"><a href="{{ page.codeurl }}">Code</a></p>
+        {% elsif page.dataseturl %}
+          <p style="font-size: smaller"><a href="{{ page.dataseturl }}">Dataset</a></p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
