@@ -19,7 +19,7 @@
         {% if teaser contains "://" %}
           "{{ teaser }}"
         {% else %}
-          "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          "{{ teaser | prepend: "/files/" | prepend: base_path }}"
         {% endif %}
         alt="{{ title }}">
     {% else %}
@@ -62,6 +62,10 @@
       
       {% if post.codeurl %}
         <a href="{{ post.codeurl }}" class="btn btn--info">Code</a>
+      {% endif %}
+      
+      {% if post.dataseturl %}
+        <a href="{{ post.dataseturl }}" class="btn" style="background-color: #b05cd3; color: white;">Dataset</a>
       {% endif %}
       
       {% if post.slidesurl %}

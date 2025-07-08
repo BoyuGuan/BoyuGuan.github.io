@@ -30,9 +30,8 @@ If you're interested in collaboration or would like to chat, feel free to reach 
 
 # 📰 News:
 - **2025.03**: 👨‍🏫 I will serve as a teaching assistant for the **Natural Language Processing** course for Ph.D. students at **Zhongguancun Academy**.
-- **2024.12**: 🎉🎉 Our paper was accepted to **COLING 2025** and selected for an **oral presentation**!
+- **2024.12**: 🎉🎉 Our paper was accepted to **COLING 2025** and selected for an **oral presentation**! Looking forward to seeing you in Abu Dhabi.
 - **2024.09**: 👨‍🏫 I will serve as a teaching assistant for the **Practical Natural Language Processing** course for undergraduate students at the **University of Chinese Academy of Sciences (UCAS)**
-
 
 
 

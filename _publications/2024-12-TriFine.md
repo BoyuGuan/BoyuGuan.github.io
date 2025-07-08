@@ -8,14 +8,15 @@ date: 2024-05-15
 venue: '<span style="background-color:rgb(32, 98, 168); color: white; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-style: normal;">CCF B</span> COLING 2025'
 paperurl: 'https://aclanthology.org/2025.coling-main.547.pdf'
 codeurl: 'https://github.com/BoyuGuan/TriFine'
+dataseturl: 'https://github.com/BoyuGuan/TriFine'
 slidesurl: '/files/paper-TriFine/oral-TriFine.pdf'
 videourl: # '#'
 posterurl: #'#'
 demourl: # '#'
 authors: '**Boyu Guan**, Yining Zhang, Yang Zhao<sup>#</sup>, Chengqing Zong'
-acceptance_status: 'Oral (rate 4.2%)'
+acceptance_status: 'Oral (rate 9.8%)'
 header:
-  teaser: 'https://boyuguan.github.io/files/paper-TriFine/TriFine.png'
+  teaser: 'paper-TriFine/TriFine.png'
 citation: # 'Zhang, W., Li, M., & Wang, H. (2024). &quot;Vision Transformer with Dynamic Attention.&quot; <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>. pp. 1234-1242.'
 ---
 
