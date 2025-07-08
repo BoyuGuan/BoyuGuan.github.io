@@ -1,21 +1,21 @@
 ---
-title: "Vision Transformer with Dynamic Attention"
+title: "TriFine: A Large-Scale Dataset of Vision-Audio-Subtitle for Tri-Modal Machine Translation and Benchmark with Fine-Grained Annotated Tags"
 collection: publications
 category: conferences
-permalink: /publication/2024-05-15-paper-box-style
+permalink: /publication/2024-12-TriFine
 excerpt: '本文提出了一种新型的动态注意力机制，显著提高了Vision Transformer在计算机视觉任务中的性能。'
 date: 2024-05-15
-venue: 'CVPR 2024'
-paperurl: '#'
-codeurl: 'https://github.com/yourusername/dynamic-vit'
+venue: '<span style="background-color:rgb(32, 98, 168); color: white; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-style: normal;">CCF B</span> COLING 2025'
+paperurl: 'https://aclanthology.org/2025.coling-main.547.pdf'
+codeurl: 'https://github.com/BoyuGuan/TriFine'
 slidesurl: '#'
-videourl: '#'
-posterurl: '#'
-demourl: '#'
-authors: 'Zhang Wei, Li Ming, Wang Hua'
+videourl: # '#'
+posterurl: #'#'
+demourl: # '#'
+authors: '**Boyu Guan**, Yining Zhang, Yang Zhao<sup>#</sup>, Chengqing Zong'
 acceptance_status: 'Oral (rate 4.2%)'
 header:
-  teaser: 'pubs/TriFine.png'
+  teaser: 'https://boyuguan.github.io/files/paper-TriFine/TriFine.png'
 citation: 'Zhang, W., Li, M., & Wang, H. (2024). &quot;Vision Transformer with Dynamic Attention.&quot; <i>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)</i>. pp. 1234-1242.'
 ---
 

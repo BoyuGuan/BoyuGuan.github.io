@@ -412,6 +412,7 @@
     border-bottom: 1px #efefef solid;
     padding: 2em 0 2em 0;
     gap: 1em;
+    min-height: 200px;
     
 
     .paper-box-image{
@@ -432,6 +433,31 @@
     .paper-box-text{
         flex: 1;
         width: 100%;
+        
+        p {
+            margin-bottom: 0.5em;
+        }
+        
+        .paper-metadata {
+            margin-bottom: 1em;
+            
+            p {
+                margin-bottom: 0.3em;
+                line-height: 1.4;
+            }
+            
+            .paper-authors {
+                margin-bottom: 0.2em;
+            }
+            
+            .paper-venue {
+                margin-bottom: 0.2em;
+            }
+            
+            .paper-date {
+                margin-bottom: 0.2em;
+            }
+        }
     }
     
     // 在中等屏幕尺寸时调整图片大小
@@ -447,23 +473,29 @@
     // 在大屏幕上使用水平布局
     @include breakpoint($large) {
         flex-direction: row;
-        align-items: flex-start;
+        align-items: stretch;
         gap: 2em;
         
         .paper-box-image{
-            justify-content: flex-start;
+            justify-content: center;
+            align-items: center;
             width: auto;
             flex: 0 0 300px;
             max-width: 300px;
+            display: flex;
             img {
                 max-width: 100%;
                 max-height: 250px;
+                object-fit: contain;
             }
         }
         
         .paper-box-text{
             flex: 1;
             width: auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
     }
     

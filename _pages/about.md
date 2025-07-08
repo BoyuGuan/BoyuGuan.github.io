@@ -22,14 +22,18 @@ Looking ahead, I am particularly interested in expanding my research to **video 
 You can find my CV here: [**Boyu Guan's Curriculum Vitae**](../../files/CV_BoyuGuan.pdf).
 If you're interested in collaboration or would like to chat, feel free to reach out to me at *guanboyu2022[at]ia.ac.cn*.
 
+# 🔥<span style="color:red; font-weight:bold;">Seeking internship opportunities in NLP and Multimodal LLMs.</span>🔥
+
 # 📚 Education:
 - **2022.09 – 2027.06 (Expected)** Ph.D. in Computer Science at the *Institute of Automation, Chinese Academy of Sciences*, Beijing, China, under the supervision of **Prof. Chengqing Zong**.
 - **2018.09 – 2022.06** B.Sc. in Mathematics, *School of Science, Northeastern University*, Shenyang, China
 
-# 🔥 News:
+# 📰 News:
 - **2025.03**: 👨‍🏫 I will serve as a teaching assistant for the **Natural Language Processing** course for Ph.D. students at **Zhongguancun Academy**.
 - **2024.12**: 🎉🎉 Our paper was accepted to **COLING 2025** and selected for an **oral presentation**!
 - **2024.09**: 👨‍🏫 I will serve as a teaching assistant for the **Practical Natural Language Processing** course for undergraduate students at the **University of Chinese Academy of Sciences (UCAS)**
+
+
 
 
 ---
@@ -37,8 +41,10 @@ If you're interested in collaboration or would like to chat, feel free to reach 
 # Publications {#publications}
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
+  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>. <sup>*</sup> Equal contribution. <sup>#</sup> Corresponding author. </div>
 {% endif %}
+
+
 
 {% include base_path %}
 
@@ -61,6 +67,6 @@ If you're interested in collaboration or would like to chat, feel free to reach 
 
 
 # 💻 Internships
-**2023.02 – 2023.08** Software Engineering Intern, *Biren Technology*, Beijing, China
-Worked on the migration and optimization of pre-training and inference pipelines for large language models (LLMs), including **LLaMA**, **LLaMA2**, and **ChatGLM**. Responsibilities included architecture adaptation and efficiency improvements such as **activation checkpointing**.
+- **2023.02 – 2023.08** Software Engineering Intern, *Biren Technology*, Beijing, China.  
+ Worked on the migration and optimization of pre-training and inference pipelines for large language models (LLMs), including **LLaMA**, **LLaMA2**, and **ChatGLM**. Responsibilities included architecture adaptation and efficiency improvements such as **activation checkpointing**.
 

@@ -36,16 +36,18 @@
       {% endif %}
     </h3>
     
-    {% if post.authors %}
-      <p><strong>Authors: </strong> {{ post.authors }}</p>
-    {% endif %}
-    {% if post.collection == 'teaching' %}
-      <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-    {% elsif post.collection == 'publications' %}
-      <p> <strong><i>{{ post.venue }}</i></strong> {% if post.acceptance_status %}<strong><i><span style="color: red;">{{ post.acceptance_status }}</span></i></strong>{% endif %} </p>
-    {% elsif post.date %}
-      <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
-    {% endif %}
+    <div class="paper-metadata">
+      {% if post.authors %}
+        <p class="paper-authors">{{ post.authors | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+      {% endif %}
+      {% if post.collection == 'teaching' %}
+        <p class="paper-venue">{{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+      {% elsif post.collection == 'publications' %}
+        <p class="paper-venue"><strong><i>{{ post.venue }}</i></strong> {% if post.acceptance_status %}<strong><i><span style="color: red;">{{ post.acceptance_status }}</span></i></strong>{% endif %}</p>
+      {% elsif post.date %}
+        <p class="paper-date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+      {% endif %}
+    </div>
 
 
 
