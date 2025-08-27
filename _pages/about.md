@@ -29,9 +29,11 @@ If you're interested in collaboration or would like to chat, feel free to reach 
 - **2018.09 – 2022.06** B.Sc. in Mathematics, *School of Science, Northeastern University*, Shenyang, China
 
 # 📰 News:
-- **2025.03**: 👨‍🏫 I will serve as a teaching assistant for the **Natural Language Processing** course for Ph.D. students at **Zhongguancun Academy**.
-- **2024.12**: 🎉🎉 Our paper was accepted to **COLING 2025** and selected for an **oral presentation**! Looking forward to seeing you in Abu Dhabi.
-- **2024.09**: 👨‍🏫 I will serve as a teaching assistant for the **Practical Natural Language Processing** course for undergraduate students at the **University of Chinese Academy of Sciences (UCAS)**
+- **2025.09**: 👨‍🏫 I will serve as a teaching assistant for the Fall 2025 undergraduate course Practical Natural Language Processing at the University of Chinese Academy of Sciences (UCAS).
+- **2025.08**: 🎉🎉 Our paper was accepted to **EMNLP 2025 main conference**, looking forward to seeing you in Suzhou.
+- **2025.03**: 👨‍🏫 I will serve as a teaching assistant for the Spring 2025 Natural Language Processing course for Ph.D. students at Zhongguancun Academy.
+- **2024.12**: 🎉🎉 Our paper was accepted to **COLING 2025 (oral)**! Looking forward to seeing you in Abu Dhabi.
+- **2024.09**: 👨‍🏫 I will serve as a teaching assistant for the Fall 2024 undergraduate course Practical Natural Language Processing at the University of Chinese Academy of Sciences (UCAS).
 
 
 
