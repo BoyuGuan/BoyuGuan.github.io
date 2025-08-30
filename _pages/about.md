@@ -22,7 +22,7 @@ Looking ahead, I am particularly interested in expanding my research to **video 
 You can find my CV here: [**Boyu Guan's Curriculum Vitae**](../../files/CV_BoyuGuan.pdf).
 If you're interested in collaboration or would like to chat, feel free to reach out to me at *guanboyu2022[at]ia.ac.cn*.
 
-# 🔥<span style="color:red; font-weight:bold;">Seeking internship opportunities in NLP and Multimodal LLMs.</span>🔥
+<!-- # 🔥<span style="color:red; font-weight:bold;">Seeking internship opportunities in NLP and Multimodal LLMs.</span>🔥 -->
 
 # 📚 Education:
 - **2022.09 – 2027.06 (Expected)** Ph.D. in Computer Science at the *Institute of Automation, Chinese Academy of Sciences*, Beijing, China, under the supervision of **Prof. Chengqing Zong**.
