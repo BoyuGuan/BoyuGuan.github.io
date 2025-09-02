@@ -66,6 +66,19 @@ If you're interested in collaboration or would like to chat, feel free to reach 
 {% endfor %} -->
 
 
+## Patent
+
+### 1. A Video Machine Translation Method and Device Integrating Fine-Grained Multimodal Information
+*(Invention Patent Under Substantive Examination)*  
+&nbsp;&nbsp;&nbsp;&nbsp;**Authors:** Yang Zhao (Advisor), **Boyu Guan**, Yining Zhang, Chengqing Zong
+
+
+### 2. An Adaptive Key Frame Selection Method for Video Machine Translation
+
+*(Invention Patent Under Substantive Examination)*  
+&nbsp;&nbsp;&nbsp;&nbsp;**Authors:** Yang Zhao (Advisor), **Boyu Guan**, Chuang Han, Chengqing Zong
+
+
 
 # 💻 Internships
 - **2023.02 – 2023.08** Software Engineering Intern, *Biren Technology (壁仞科技)*, Beijing, China.  
