@@ -138,14 +138,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
-og_description           :  # Social media default site image description
+og_image                 : "profile.jpg" # Social media default site image
+og_description           : "Ph.D. student at CASIA focusing on NLP, multimodal LLMs, and video-guided machine translation."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  type                   : "Person" # Person or Organization (defaults to Person)
+  name                   : "Boyu Guan" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/BoyuGuan"
+    - "https://scholar.google.com/citations?user=7Rjz9qUAAAAJ&hl=en"
 
 
 # Analytics

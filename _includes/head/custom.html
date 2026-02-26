@@ -14,4 +14,8 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+{% if page.sitemap == false or page.robots == "noindex" %}
+<meta name="robots" content="noindex,follow"/>
+{% endif %}
+
 <!-- end custom head snippets -->
