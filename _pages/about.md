@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Boyu Guan - NLP and Multimodal LLM Research"
+title: "Boyu Guan (管博宇) - NLP and Multimodal LLM Research"
 description: "Ph.D. student at CASIA working on NLP, multimodal large language models, and video-guided machine translation."
 author_profile: true
 layout: single
@@ -13,14 +13,14 @@ redirect_from:
 
 <!-- ## **Boyu Guan (管博宇)** -->
 
-I am currently a third-year Ph.D. student at the **Institute of Automation, Chinese Academy of Sciences**, and a member of the **State Key Laboratory of Multimodal Artificial Intelligence Systems**, where I am advised by [**Prof. Chengqing Zong (宗成庆)**](https://nlpr.ia.ac.cn/cip/cqzong.htm) and [**Assoc. Prof. Yang Zhao (赵阳)**](https://yzhaoiacas.netlify.app/).
+I am currently a Ph.D. student at the **Institute of Automation, Chinese Academy of Sciences**, and a member of the **State Key Laboratory of Multimodal Artificial Intelligence Systems**, where I am advised by [**Prof. Chengqing Zong (宗成庆)**](https://nlpr.ia.ac.cn/cip/cqzong.htm) and [**Assoc. Prof. Yang Zhao (赵阳)**](https://yzhaoiacas.netlify.app/).
 
 
 My research lies at the intersection of **Natural Language Processing (NLP)** and **Multimodal Large Language Models (MLLMs)**, with a current focus on **Video-Guided Machine Translation (VMT)**. In this line of work, I explore how visual and linguistic signals can be effectively fused to enhance translation performance and efficiency.
 
 Looking ahead, I am particularly interested in expanding my research to **video question answering** and broader topics in **multimodal understanding**.
 
-You can find my CV here: [**Boyu Guan's Curriculum Vitae**](../../files/CV_BoyuGuan.pdf).
+<!-- You can find my CV here: [**Boyu Guan's Curriculum Vitae**](../../files/CV_BoyuGuan.pdf). -->
 If you're interested in collaboration or would like to chat, feel free to reach out to me at *guanboyu2022[at]ia.ac.cn*.
 
 <!-- # 🔥<span style="color:red; font-weight:bold;">Seeking internship opportunities in NLP and Multimodal LLMs.</span>🔥 -->
@@ -83,4 +83,6 @@ If you're interested in collaboration or would like to chat, feel free to reach 
 
 # 💻 Internships
 - **2023.02 – 2023.08** Software Engineering Intern, *Biren Technology (壁仞科技)*, Beijing, China.  
- Worked on the migration and optimization of pre-training and inference pipelines for large language models (LLMs), including **LLaMA**, **LLaMA2**, and **ChatGLM**. Responsibilities included architecture adaptation and efficiency improvements such as **activation checkpointing**.
+  - Participated in adapting and optimizing large-scale model pre-training and inference pipelines, including porting key mechanisms such as activation checkpointing and 3D parallelism, and integrating training frameworks DeepSpeed and Megatron-DeepSpeed.
+  - Conducted operator extraction, migration, and end-to-end pipeline optimization for mainstream LLMs (e.g., LLaMA, LLaMA2, Qwen), improving overall training and inference performance.
+ <!-- Worked on the migration and optimization of pre-training and inference pipelines for large language models (LLMs), including **LLaMA**, **LLaMA2**, and **ChatGLM**. Responsibilities included architecture adaptation and efficiency improvements such as **activation checkpointing**. -->

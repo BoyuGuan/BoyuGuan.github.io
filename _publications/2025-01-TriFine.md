@@ -6,7 +6,7 @@ permalink: /publication/2025-01-TriFine
 excerpt: 'This paper introduces TriFine, the first large-scale dataset for tri-modal (vision, audio, subtitle) machine translation with fine-grained annotated tags, and proposes a novel translation method FIAT that leverages this fine-grained information to achieve superior translation performance.'
 date: 2025-01-15
 venue: '<span style="background-color:rgb(32, 98, 168); color: white; padding: 2px 6px; border-radius: 4px; font-weight: bold; font-style: normal;">CCF B</span> COLING 2025'
-paperurl: 'https://aclanthology.org/2025.coling-main.547.pdf'
+paperurl: 'https://aclanthology.org/2025.coling-main.547'
 codeurl: 'https://github.com/BoyuGuan/TriFine'
 dataseturl: 'https://github.com/BoyuGuan/TriFine'
 slidesurl: '/files/paper-TriFine/oral-TriFine.pdf'
