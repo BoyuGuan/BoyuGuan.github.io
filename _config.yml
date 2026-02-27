@@ -234,6 +234,19 @@ collections:
 
 # These settings control how pages and collections are included in the site
 defaults:
+  # Exclude utility/static files from XML sitemap
+  - scope:
+      path: "files/**"
+    values:
+      sitemap: false
+  - scope:
+      path: "talkmap/map.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "googlea028369bd006084c.html"
+    values:
+      sitemap: false
   # _posts
   - scope:
       path: ""
