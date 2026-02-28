@@ -2,6 +2,7 @@
 title: "TriFine: A Large-Scale Dataset of Vision-Audio-Subtitle for Tri-Modal Machine Translation and Benchmark with Fine-Grained Annotated Tags"
 collection: publications
 category: conferences
+featured: true
 permalink: /publication/2025-01-TriFine
 excerpt: 'This paper introduces TriFine, the first large-scale dataset for tri-modal (vision, audio, subtitle) machine translation with fine-grained annotated tags, and proposes a novel translation method FIAT that leverages this fine-grained information to achieve superior translation performance.'
 date: 2025-01-15

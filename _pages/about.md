@@ -25,9 +25,21 @@ If you're interested in collaboration or would like to chat, feel free to reach 
 
 <!-- # 🔥<span style="color:red; font-weight:bold;">Seeking internship opportunities in NLP and Multimodal LLMs.</span>🔥 -->
 
+
+---
+
+
 # 📚 Education:
-- **2022.09 – 2027.06 (Expected)** Ph.D. in Computer Science at the *Institute of Automation, Chinese Academy of Sciences*, Beijing, China, under the supervision of **Prof. Chengqing Zong**.
+- **2022.09 – 2027.06 (Expected)** Ph.D. in Computer Science at the *Institute of Automation, Chinese Academy of Sciences*, Beijing, China
+  - Research interests: **Multimodal Large Language Models, Video Understanding, and Multilingual (Machine Translation)**
+  - Conducted research under [**Prof. Chengqing Zong (宗成庆)**](https://nlpr.ia.ac.cn/cip/cqzong.htm) at the **State Key Laboratory of Multimodal Artificial Intelligence Systems**.
+
 - **2018.09 – 2022.06** B.Sc. in Mathematics, *School of Science, Northeastern University*, Shenyang, China
+  - GPA: 3.76 / 5.00, Rank 3 / 31; admitted to a direct PhD program via top-10% recommendation.
+
+
+
+---
 
 # 📰 News:
 - **2025.09**: 👨‍🏫 I will serve as a teaching assistant for the Fall 2025 undergraduate course Practical Natural Language Processing at the University of Chinese Academy of Sciences (UCAS).
@@ -46,25 +58,24 @@ If you're interested in collaboration or would like to chat, feel free to reach 
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>. <sup>*</sup> Equal contribution. <sup>#</sup> Corresponding author. </div>
 {% endif %}
 
-
-
 {% include base_path %}
 
-## Conference Papers
 
-{% for post in site.publications reversed %}
-  {% if post.category == 'conferences' %}
-    {% include archive-single-paper-box.html %}
-  {% endif %}
-{% endfor %}
+<!-- <br> -->
+<!-- <br> -->
 
-<!-- ## Journal Articles
+## Video-guided Machine Translation
 
-{% for post in site.publications reversed %}
-  {% if post.category == 'manuscripts' %}
-    {% include archive-single-paper-box.html %}
-  {% endif %}
-{% endfor %} -->
+{% assign post = site.publications | where: "slug", "2025-08-SHIFT" | first %}
+{% include archive-single-paper-box.html %}
+
+--- 
+
+{% assign post = site.publications | where: "slug", "2025-01-TriFine" | first %}
+{% include archive-single-paper-box.html %}
+
+
+---
 
 
 ## Patent
